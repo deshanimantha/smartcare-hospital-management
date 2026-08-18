@@ -2,8 +2,7 @@ package com.smartcare.hospital_management.entity;
 
 import jakarta.persistence.*;
 import java.math.BigDecimal;
-import java.time.LocalDate;
-import java.time.LocalTime;
+
 
 @Entity
 @Table(name = "doctor")
@@ -68,12 +67,6 @@ public class Doctor extends Person {
         this.department = department;
     }
 
-    public boolean checkAvailability(LocalDate date, LocalTime time) {
-        return true;
-    }
 
-    @Override
-    public void updateDetails() {
-        System.out.println("Doctor details updated");
-    }
 }
+

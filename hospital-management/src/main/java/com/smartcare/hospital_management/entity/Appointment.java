@@ -37,6 +37,7 @@ public class Appointment {
     @Column(name = "consultation_room")
     private String consultationRoom;
 
+    @Column(name = "reason")
     private String reason;
 
     @ManyToOne

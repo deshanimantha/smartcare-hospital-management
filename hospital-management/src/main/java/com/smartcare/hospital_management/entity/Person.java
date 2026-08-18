@@ -27,6 +27,6 @@ public abstract class Person {
     public void setContactNumber(String contactNumber) {
         this.contactNumber = contactNumber;
     }
-    public abstract void updateDetails();
+
 
 }

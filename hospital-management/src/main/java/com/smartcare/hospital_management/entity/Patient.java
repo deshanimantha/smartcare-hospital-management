@@ -75,9 +75,6 @@ public class Patient extends Person {
     public void setEmergencyContact(String emergencyContact) {
         this.emergencyContact = emergencyContact;
     }
-    @Override
-    public void updateDetails() {
-        System.out.println("Patient details updated");
-    }
+
 
 }

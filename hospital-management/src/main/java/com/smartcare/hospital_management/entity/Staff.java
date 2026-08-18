@@ -45,10 +45,7 @@ public class Staff extends Person {
         this.department = department;
     }
 
-    @Override
-    public void updateDetails() {
-        System.out.println("Staff details updated");
-    }
+
 
     public void updateRole(String role) {
         this.staffRole = role;
