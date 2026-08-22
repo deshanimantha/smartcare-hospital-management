@@ -32,7 +32,3 @@ build/
 ### VS Code ###
 .vscode/
 
-.idea/
-target/
-*.iml
-src/main/resources/application.properties
