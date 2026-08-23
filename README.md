@@ -6,24 +6,38 @@ Base URL for all requests: `http://localhost:8080`
 
 ## 1. Patients API (`/api/patients`)
 * **Get All Patients:** 
-  * Method: `GET`
-  * URL: `http://localhost:8080/api/patients`
+  *  `GET` URL: `http://localhost:8080/api/patients`
 
 * **Get Patient By ID:** 
-  * Method: `GET`
-  * URL: `http://localhost:8080/api/patients/{id}`
+  `GET` URL: `http://localhost:8080/api/patients/{id}`
+
+Register Patient (POST):** 
+`POST`  URL: `http://localhost:8080/api/patients`
+  * Body (JSON): {ex}
+
+* **Update Patient (PUT):** 
+  `PUT` URL: `http://localhost:8080/api/patients/{id}`
+  * Body (JSON):{ex}
+
+
+ * **Delete Patient:** 
+  * `DELETE` URL: `http://localhost:8080/api/patients/{id}`
+    
 
 
 ## 2. Departments API (`/api/departments`)
 * **Get All Departments:** 
-  * Method: `GET`
-  * URL: `http://localhost:8080/api/departments`
+  * `GET`  URL: `http://localhost:8080/api/departments`
 
 * **Delete Department:** 
-  * Method: `DELETE`
-  * URL: `http://localhost:8080/api/departments/{id}`
+  * `DELETE`  URL: `http://localhost:8080/api/departments/{id}`
 
----
+* **Create Department (POST):** 
+  * `POST` URL: `http://localhost:8080/api/departments`
+  * Body (JSON):{ex}
+
+
+
 
 ## 3. Other Controllers (GET & DELETE Only)
 
